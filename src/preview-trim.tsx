@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { Action, ActionPanel, Clipboard, closeMainWindow, Detail, Icon, LocalStorage, showHUD } from "@raycast/api";
+import { Action, ActionPanel, Clipboard, Detail, Icon, LocalStorage, closeMainWindow, showHUD } from "@raycast/api";
 import { usePromise } from "@raycast/utils";
+import { useState } from "react";
 import { Aggressiveness, cleanText, getPreferences, resolveInput } from "./trim-core";
 
 const AGGRESSIVENESS_KEY = "preview-trim:aggressiveness";

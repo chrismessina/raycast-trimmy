@@ -1,4 +1,4 @@
-import { getPreferences, runTrimCommand } from "./trim-core";
+import { runTrimCommand, getPreferences } from "./trim-core";
 
 export default async function command(): Promise<void> {
   const preferences = getPreferences<Preferences.TrimAndPaste>();
